@@ -1,0 +1,461 @@
+.top-bar{
+    background-color: #006CD1;
+    color: #FFFFFF;
+    padding: 5px 0;
+}
+
+h1,h2,h3,h4,h5,h6,p,a{
+    font-family: "Quicksand", serif;
+}
+
+.font-blue{
+    color: #006CD1;
+}
+
+.nav-link {
+    padding: 10px 12px !important;
+}
+
+.nav-link.active{
+    color: #FFFFFF !important;
+    background-color: #006CD1;
+    border-radius: 4px;
+}
+
+.top-bar a{
+    color: #FFFFFF;
+    font-family: "Quicksand", serif;
+    font-weight: 300;
+    font-size: 16px;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+}
+
+.top-bar p{
+    margin-bottom: 0;
+    text-align: center;
+    font-family: "Quicksand", serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.location{
+    color: #FFFFFF;
+    font-family: "Quicksand", serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: right !important;
+}
+
+.fa-solid{
+    font-size: 14px;
+}
+
+.logo{
+    width: 100px;
+}
+
+#home{
+    background-image: url(../image/HomePage_Banner.png);
+    height: calc(100vh - 105px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+
+}
+
+.banner-content{
+    top: 225px;
+    position: absolute;
+    left: 65px;
+    width: 45%;
+    color: #FFFFFF;
+    font-family: "Quicksand", serif;
+}
+
+.banner-content h1{
+    font-weight: 700;
+    font-size: 42px;
+}
+
+.banner-content h6{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.banner-content p{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.section-margin{
+    margin-bottom: 100px;
+}
+
+.section-top-content{
+    text-align: center;
+}
+
+.section-heading{
+    font-family: "Quicksand", serif;
+    font-weight: 800;
+    font-size: 36px;
+    color: #006CD1;
+    margin-bottom: 12.5px;
+}
+
+.section-top-content p{
+    font-size: 16px;
+}
+
+.about-card-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 70px 20px;
+    padding: 30px 0;
+}
+
+.about-card{
+    width: 25%;
+    position: relative;
+}
+
+.about-image img{
+    width: 373px;
+    height: 249px;
+}
+
+.about-image-heading{
+    text-align: center;
+    background-color: #006CD1;
+    color: #FFFFFF;
+    padding: 5px 0;
+
+}
+
+.about-image-heading h6{
+    margin-bottom: 0;
+}
+
+.team-img img{
+    width: 305px;
+    height: 500px;
+}
+
+.team-card{
+    position: relative;
+}
+
+.team-content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.team-content .description{
+    display: none;
+}
+
+.team-bg-blur{
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.name h6{
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.team-card:hover .description{
+    display: block;
+    color: #FFFFFF;
+}
+
+.team-card:hover .team-content{
+    background-color: #006CD1;
+    
+}
+
+.name h6{
+    margin-bottom: 0;
+}
+
+.name p{
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.gallery-row{
+    margin: 30px 0 !important;
+}
+
+.modal-btn{
+    padding: 0;
+    background-color: transparent;
+    border: none;
+
+}
+
+.modal-btn img{
+    width: 100%;
+}
+
+.modal-content{
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.modal-header{
+    border: none !important;
+}
+
+.modal-body{
+    margin: 0 auto;
+}
+
+.fa-solid.fa-xmark{
+    color: #FFFFFF;
+}
+
+.cross-mark{
+    background-color: transparent !important;
+    border: none;
+    padding: 0;
+    float: right;
+}
+
+.modal-header{
+    justify-content: end;
+}
+
+.mission-gallery, .vission-gallery{
+    margin-top: 30px;
+}
+
+.modal-body img{
+    width: 100%;
+    height: 75vh;
+}
+
+.vission-gallery-img .modal-btn img{
+    width: 306px;
+    height: 229px;
+}
+
+.section-top-content.Janiv-Annachatra-content{
+    text-align: left;
+}
+
+.janiv-annachitra-img, .janiv-davakhana-img{
+    border-radius: 12px;
+    width: 100%;
+}
+
+.section-top-content.Janiv-Davakhanna-content{
+    text-align: left;
+}
+
+.fact-img img{
+    width: 100%;
+    height: 229px;
+    border-radius: 8px;
+}
+
+.fact-cards{
+    padding: 8px;
+    -webkit-box-shadow: 0px 0px 8px 5px rgba(230,230,230,0.63);
+    -moz-box-shadow: 0px 0px 8px 5px rgba(230,230,230,0.63);
+    box-shadow: 0px 0px 8px 5px rgba(230,230,230,0.63);
+    border-radius: 8px;
+}
+
+.fact-description p{
+    text-align: center;
+    margin: 5px 0 0 0;
+}
+
+.key-fact-content{
+    margin-bottom: 25px;
+}
+
+#contactusdiv{
+    background-color: #006CD1;
+    margin-bottom: 0;
+    padding: 50px 0;
+}
+
+.footer-img img{
+    filter: brightness(0) invert(1);
+    width: 200px;
+}
+
+.footer-description{
+    color: #FFFFFF;
+}
+
+.footer-description .location{
+    text-align: left !important;
+}
+
+.footer-mail{
+    margin-bottom: 16px !important;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-description .mobNumber{
+    margin-top: 16px;
+}
+
+#scrolled-header{
+    position: fixed;
+    display: none;
+    width: 100%;
+    background-color: #FFFFFF;
+    transition: top 0.3s;
+    z-index: 999;
+    top: 34.8px;
+    -webkit-box-shadow: 0px 8px 8px -2px rgba(245,245,245,1);
+-moz-box-shadow: 0px 8px 8px -2px rgba(245,245,245,1);
+box-shadow: 0px 8px 8px -2px rgba(245,245,245,1);
+}
+
+.navbar{
+    padding: 15px 0;
+}
+
+
+/* RESPOSNIVE CODE START */
+
+@media screen and (max-width:991px) {
+    .top-bar{
+        display: none;
+    }
+
+    .about-card-row{
+        justify-content: flex-start;
+    }
+
+    .about-card{
+        width: 100%;
+    }
+
+    .banner-content{
+        top: auto;
+        bottom: 20px;
+        width: 90%;
+        left: 15px;
+        text-align: center;
+    }
+
+    .banner-content h1{
+        font-size: 22px;
+    }
+
+    .banner-content p{
+        display: none;
+    }
+
+    .banner-content h6{
+        font-size: 12px;
+    }
+
+    #home{
+        height: calc(100vh - 70px);
+    }
+
+    .section-margin{
+        margin-bottom: 25px;
+    }
+
+    .section-heading{
+        font-size: 28px;
+    }
+
+    .about-image img{
+        width: 100%;
+        height: auto;
+    }
+
+    .about-card-row{
+        gap: 30px;
+    }
+
+    .team-img img{
+        width: 100%;
+    }
+
+    .team-content .description{
+        display: block;
+    }
+
+    .team-content{
+        position: relative;
+        background-color: #006CD1;
+        color: #FFFFFF;
+
+    }
+
+    .team-card{
+        margin-bottom: 25px;
+    }
+
+    .name h6{
+        font-size: 24px;
+    }
+
+    .description p{
+        font-size: 14px;
+    }
+
+    .vission-gallery-img .modal-btn img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 25px;
+    }
+
+    .section-top-content.Janiv-Annachatra-content, .section-top-content.Janiv-Davakhanna-content{
+        text-align: center;
+    }
+
+    .row.davakhanna-row{
+        flex-direction: column-reverse;
+    }
+
+    .gallery-row{
+        margin: 0 !important;
+    }
+
+    .fact-cards{
+        margin-bottom: 25px;
+    }
+
+    #contactusdiv, .footer-description{
+        text-align: center;
+    }
+
+    .footer-img{
+        margin-bottom: 25px;
+    }
+
+    .footer-description .location{
+        text-align: center !important;
+    }
+
+    .navbar-toggler{
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+}
+
+/* RESPOSNIVE CODE END */
